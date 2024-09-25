@@ -1,2 +1,1 @@
-# PROYECTO_IISSI_2
-Proyecto usado para el trabajo de la asignatura Introducción a la Ingenieria del Software y Sistemas Informáticos 2
+Backend for the photo gallery lab project. It includes all necessary SQL files, and a basic file structure for the web app.
