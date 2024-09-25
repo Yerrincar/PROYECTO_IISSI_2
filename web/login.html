@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="/js/login.js" type="module"></script>
+        <title>IISSI FRIENDS</title>
+        <link rel="icon" href="/images/favicon.ico">
+        <link rel="stylesheet" href="/css/style.css">
+        <script src="/js/utils/include.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/font-awesome.min.css">
+        <script src="/js/libs/bootstrap.min.js"></script>
+        <script src="js/libs/axios.min.js"></script>
+        <script src="js/header.js" type="module"></script>
+
+    </head>
+
+    <body class="dark">
+        
+        <div id="page-header"></div>
+        
+        <div class="container">
+            <div class="raw text-center">
+                <hr>
+                <h3>User login</h3>
+                <hr>
+            </div>
+
+            <div id="errors"></div>
+
+            <form id ="login-form">
+                <div class="row mb-4">
+                    <div class="col-md">
+                        <div class="form-group">
+                            <label for="username-input">Username:</label>
+                            <input type="text" class="form-control text-light bg-dark" id="username-input"
+                            name="username" placeholder="Username">
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="form-group">
+                            <label for="password-input">Password:</label>
+                            <input type="password" class="form-control text-light bg-dark" id="password-input"
+                            name="password" placeholder="Password">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md text-center">
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <script>
+            include("header.html", "#page-header")
+        </script>
+    </body>
+</html>

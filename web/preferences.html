@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IISSI FRIENDS</title>
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="css/style.css">
+        
+        <script src="js/utils/include.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <script src="js/libs/bootstrap.min.js"></script>
+        <script src="js/preferences.js"></script>
+
+        <script src="js/header.js" type="module"></script>
+    </head>
+
+    <body class="dark">
+
+        <div id="page-header"></div>
+
+        <div class="container">
+            <div class="raw text-center">
+                <h3>Preferences</h3>
+                <hr>
+            </div>
+
+            <form>
+                <div class="row">
+                    <div class="col-md">
+                        <div class="form-group">
+                            <input type="button" class="form-control text-light bg-dark" id="btn-username" value="Change username"
+                                name="username" required>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+
+                <div class="row">
+                    <div class="col-md">
+                        <div class="form-group">
+                            <input type="button" class="form-control text-light bg-dark" id="btn-bio" value="Change biography"
+                                name="bio" required>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+
+                <div class="row">
+                    <div class="col-md">
+                        <div class="form-group">
+                            <input type="button" class="form-control text-light bg-dark" id="btn-password" value="Change password"
+                                name="password" required>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+            </form>
+        </div>
+
+        <script>
+            include("header.html", "#page-header")
+        </script>
+    </body>
+</html>
